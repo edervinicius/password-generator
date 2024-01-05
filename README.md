@@ -1,1 +1,1 @@
-# password-generator
+# Gerador de Senhas Aleatórias em Go
