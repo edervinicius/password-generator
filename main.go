@@ -23,13 +23,17 @@ func generateRandomPassword(length int) (string, error) {
 }
 
 func main() {
-	passwordLength := 12
+	var passwordLength int
+
+	fmt.Print("Input the password length: ")
+	fmt.Scan(&passwordLength)
+
 	password, err := generateRandomPassword(passwordLength)
 
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println("Erro ao gerar senha:", err)
 		return
 	}
 
-	fmt.Println(password)
+	fmt.Println("Password:", password)
 }
