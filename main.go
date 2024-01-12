@@ -25,7 +25,7 @@ func generateRandomPassword(length int) (string, error) {
 func main() {
 	var passwordLength int
 
-	fmt.Print("Input the password length: ")
+	fmt.Print("Input the password strength: ")
 	fmt.Scan(&passwordLength)
 
 	password, err := generateRandomPassword(passwordLength)
