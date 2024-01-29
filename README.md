@@ -1,1 +1,3 @@
-# Gerador de Senhas Aleatórias em Go
+# Random password generator
+
+`go run main.go`
